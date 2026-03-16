@@ -1,10 +1,10 @@
 print(f"Give me your first number of the equation.")
 
-x = input()
+x1 = input()
 
 print(f"Okay now the second number please.")
 
-y = input()
+y1 = input()
 
 #test for variable numbers
 #print(f"{x} and {y}")
@@ -15,4 +15,9 @@ print(f"What symbol are you using?")
 
 op = input()
 
-if op == str("x"):
+if op == "x" :
+    print(int(x1) * int(y1))
+
+elif op == "+":
+    print(int(x1) + int(y1))
+    
