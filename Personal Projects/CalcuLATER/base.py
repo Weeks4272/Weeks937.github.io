@@ -15,9 +15,14 @@ print(f"What symbol are you using?")
 
 op = input()
 
-if op == "x" :
+if op == "x":
     print(int(x1) * int(y1))
 
 elif op == "+":
     print(int(x1) + int(y1))
     
+elif op == "-":
+    print(int(x1) - int(y1))
+    
+elif op == "/":
+    print(int(x1) / int(y1))
