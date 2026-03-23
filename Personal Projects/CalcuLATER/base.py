@@ -26,3 +26,6 @@ elif op == "-":
     
 elif op == "/":
     print(int(x1) / int(y1))
+    
+elif op == "%":
+    print(int(x1) % int(y1))
