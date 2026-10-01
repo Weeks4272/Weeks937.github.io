@@ -1,4 +1,4 @@
-print(f"Give me your first number of the equation.")
+""" print(f"Give me your first number of the equation.")
 
 x1 = input()
 
@@ -28,4 +28,21 @@ elif op == "/":
     print(int(x1) / int(y1))
     
 elif op == "%":
-    print(int(x1) % int(y1))
+    print(int(x1) % int(y1)) """
+    
+def calculate(x, op, y):
+    if op == "x":
+        return int(x) * int(y)
+    elif op == "+":
+        return int(x) + int(y)
+    elif op == "-":
+        return int(x) - int(y)
+    elif op == "/":
+        return int(x) / int(y)
+    elif op == "%":
+        return int(x) % int(y)
+    else:
+        return "Invalid operator"
+    
+
+print(calculate(100, "x", 4000))
